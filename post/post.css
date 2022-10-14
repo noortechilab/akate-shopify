@@ -1,0 +1,66 @@
+.conatiner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(25, 118, 210);
+  color: #ffffff;
+}
+
+.logo-1 {
+  grid-column: 2/3;
+  align-items: center;
+  justify-items: center;
+  display: grid;
+  cursor: pointer;
+}
+.logo-1 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.links ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  width: 20rem;
+}
+
+.links ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.login-1 {
+  cursor: pointer;
+}
+.login-1 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/*****/
+/**table section**/
+.container-2 {
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  width: 1038px;
+  margin-left: 136px;
+  margin-top: 30px;
+}
+.heading-table {
+  color: rgb(81, 133, 247);
+  font-size: 30px;
+
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.seemore {
+  color: rgb(81, 133, 247);
+  font-size: 15px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+}

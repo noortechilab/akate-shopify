@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
     <!--bootstrap css script link-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -23,13 +24,12 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     />
     <!--custom css link-->
-    <link rel="stylesheet" href="index.css" />
-    <title>Dashboard</title>
+    <link rel="stylesheet" href="Product.css" />
+    <title>Document</title>
   </head>
   <body>
-    <!-- navbar start-->
     <div class="conatiner">
-      <div class="logo-1"><a href="#">Dashboard</a></div>
+      <div class="logo-1"><a href="/index.html">Dashboard</a></div>
       <div class="links">
         <ul>
           <li><a href="/products/Product.html">Products</a></li>
@@ -38,30 +38,45 @@
       </div>
       <div class="login-1"><a href="/Login/login.html">log in</a></div>
     </div>
-
-    <!--section start-->
-    <div class="card-container">
-      <div class="bg-1">
-        <div class="counter">1</div>
-        <div class="para-1">Comment count</div>
-      </div>
-      <!--2nd section-->
-
-      <div class="bg-2">
-        <div class="counter-2">1</div>
-        <div class="para-2">Comment count</div>
-      </div>
-      <!--3nd section-->
-
-      <div class="bg-3">
-        <div class="counter-3">1</div>
-        <div class="para-3">Comment count</div>
-      </div>
-      <!--4nd section-->
-
-      <div class="bg-4">
-        <div class="counter-4">1</div>
-        <div class="para-4">Comment count</div>
+    <!--table-->
+    <div class="container-2">
+      <div class="heading-table">Comments</div>
+      <div class="table-1">
+        <table class="table mt-5">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+              <th scope="col">Author</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <td>Author</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+              <td>Author</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+              <td>Author</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="seemore">See More</div>
       </div>
     </div>
   </body>

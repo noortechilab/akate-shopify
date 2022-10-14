@@ -1,0 +1,55 @@
+.conatiner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(25, 118, 210);
+  color: #ffffff;
+}
+
+.logo-1 {
+  grid-column: 2/3;
+  align-items: center;
+  justify-items: center;
+  display: grid;
+  cursor: pointer;
+}
+.logo-1 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.links ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  width: 20rem;
+}
+
+.links ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.login-1 {
+  cursor: pointer;
+}
+.login-1 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.img-1 {
+  height: calc(100vh - 50px);
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-1 img {
+  width: 20rem;
+  cursor: pointer;
+}
